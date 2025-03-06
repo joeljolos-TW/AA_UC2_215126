@@ -6,8 +6,8 @@ package Main;
 import Algoritmos.Busquedas;
 import Algoritmos.Ordenamiento;
 /**
- * Clase principal para las pruebas de los algoritmos
- * Principal class to make tests of the algorithms
+ * Clase principal para las pruebas de los algoritmos.
+ * Principal class to make tests of the algorithms.
  * @author joel_
  */
 public class Main {

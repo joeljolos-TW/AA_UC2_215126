@@ -5,8 +5,8 @@
 package Algoritmos;
 
 /**
- * clase que almacenara los metodos de busqueda
- * Class that will store the searching methods
+ * clase que almacenara los metodos de busqueda.
+ * Class that will store the searching methods.
  * @author joel_
  */
 public class Busquedas {
