@@ -19,6 +19,11 @@ public class Main {
         System.out.println("El arreglo al inicio: "+Arrays.toString(arr));
         Ordenamiento.bubbleSort(arr);
         System.out.println("El arreglo al final: "+Arrays.toString(arr));
+        
+        int[] arr1= {5,21,48,10,1};
+        System.out.println("El arreglo al inicio: "+Arrays.toString(arr1));
+        Ordenamiento.insercion(arr1);
+        System.out.println("El arreglo al Final: "+Arrays.toString(arr1));
     }
     
 }
