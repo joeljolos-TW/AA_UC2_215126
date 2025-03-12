@@ -24,6 +24,11 @@ public class Main {
         System.out.println("El arreglo al inicio: "+Arrays.toString(arr1));
         Ordenamiento.insercion(arr1);
         System.out.println("El arreglo al Final: "+Arrays.toString(arr1));
+        
+        int[] arr2= {37,7,51,22,9};
+        System.out.println("El arreglo al inicio: "+Arrays.toString(arr2));
+        Ordenamiento.seleccion(arr2);
+        System.out.println("El arreglo al final: "+Arrays.toString(arr2));
     }
     
 }

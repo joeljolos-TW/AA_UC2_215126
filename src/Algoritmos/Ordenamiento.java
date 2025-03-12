@@ -46,4 +46,23 @@ public class Ordenamiento {
             arreglo[j + 1] = key;
         }
     }
+    
+    /**
+     * Metodo de ordenamiento por busqueda
+     * @param arreglo 
+     */
+    public static void seleccion(int[] arreglo){
+        for (int i = 0; i < arreglo.length-1; i++) {
+            int indMenor = i;
+            for (int j = i+1; j < arreglo.length; j++) {
+                if (arreglo[j]<arreglo[indMenor]){
+                    indMenor = j;
+                }
+            }
+            int aux = arreglo[i];
+            arreglo[i]=arreglo[indMenor];
+            arreglo[indMenor]=aux;
+        }
+
+    }
 }
